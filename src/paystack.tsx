@@ -142,14 +142,14 @@ const Paystack: React.ForwardRefRenderFunction<React.ReactNode, PayStackProps> =
   return (
     <Modal style={{ flex: 1 }} visible={showModal} animationType="slide" transparent={false}>
       <SafeAreaView style={{ flex: 1 }}>
-        <View style={{ display: 'flex' }}>
-          <TouchableOpacity onPress={() => setshowModal(false)}>
+        {/* <View style={{ display: 'flex' }}> */}
+          {/* <TouchableOpacity onPress={() => setshowModal(false)}>
             <Text>Cancel</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setshowModal(false)}>
             <Text>Done</Text>
-          </TouchableOpacity>
-        </View>
+          </TouchableOpacity> */}
+        {/* </View> */}
         <WebView
           style={[{ flex: 1 }]}
           source={{ html: Paystackcontent }}
